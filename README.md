@@ -24,8 +24,9 @@ Deployment - We will deploy the best performing model to make predictions on new
 
 ## The repository contains the following files:
 
-### Data Set
+### Assets
 employee-attrition.csv - the dataset used in this case study.  
+requirement.txt - the file contains all the required libraries for this analysis.  
 ### EDA 
 EDA.ipynb - Used to perform EDA on the provided dataset. 
 ### Python training and scoring files
