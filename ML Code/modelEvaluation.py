@@ -4,6 +4,7 @@ from sklearn.metrics import f1_score
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 
+## This function computes and prints the accuracy matrixs
 def modelEvaluation(model,y_pred,X_train, X_test, y_train, y_test):  
     print("\tAccuracy score: ", accuracy_score(y_test, y_pred))
     print("\tConfusion matrix: \n", confusion_matrix(y_test, y_pred))

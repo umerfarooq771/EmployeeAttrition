@@ -1,5 +1,5 @@
 
-
+## this function computes the correlation between the independent features as well as target 
 def findingCorrelation(maindata):
 
     # Calculate the correlation matrix
