@@ -33,9 +33,9 @@ EDA.ipynb - Used to perform EDA on the provided dataset.
 main.py - python code used for training and saving the models.   
 scoring.py - python code used for reading models from pkl files and running on new data. 
 ### Data Pre-Processing
-findingCorrelation.py - finding correlation between the independent varaibles in pair as well as target. 
-featureScaling.py - applying feature scaling using min max scaler. 
-dataBalancing.py - applying over sampling with SMOTE
+findingCorrelation.py - finding correlation between the independent varaibles in pair as well as target.  
+featureScaling.py - applying feature scaling using min max scaler.  
+dataBalancing.py - applying over sampling with SMOTE.  
 dataPreProcessing.py - a Python script that contains the data preprocessing functions.  
 ### Models
 gradientBoosting.py - a Python script that contains the gradient boosting model implementation.  
