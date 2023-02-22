@@ -43,7 +43,6 @@ Deployment - We will deploy the best performing model to make predictions on new
 [modelEvaluation.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/modelEvaluation.py) - a Python script that contains the evaluation metrics implementation.  
 [randomForest.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/randomForest.py) - a Python script that contains the random forest model implementation.  
 [Xgboost.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/Xgboost.py) - a Python script that contains the XGBoost model implementation.  
-[EnsembleModel.py] - a Python script that contains the ensemble model implementation.  
 [Trained Models](https://github.com/umerfarooq771/EmployeeAttrition/tree/main/ML%20Code/TrainedModels) - a folder that contains the trained models.  
 
 README.md - a readme file that provides an overview of the case study.  
