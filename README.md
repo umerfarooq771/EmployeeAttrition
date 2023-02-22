@@ -25,25 +25,25 @@ Deployment - We will deploy the best performing model to make predictions on new
 ## The repository contains the following files:
 
 ### Assets
-employee-attrition.csv - the dataset used in this case study.  
-requirement.txt - the file contains all the required libraries for this analysis.  
+[employee-attrition.csv](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/employee-attrition.csv) - the dataset used in this case study.  
+[requirement.txt](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/requirement.txt) - the file contains all the required libraries for this analysis.  
 ### EDA 
-EDA.ipynb - Used to perform EDA on the provided dataset. 
+[EDA.ipynb](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/EDA.ipynb) - Used to perform EDA on the provided dataset. 
 ### Python training and scoring files
-main.py - python code used for training and saving the models.   
-scoring.py - python code used for reading models from pkl files and running on new data. 
+[main.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/main.py) - python code used for training and saving the models.   
+[scoring.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/scoring.py) - python code used for reading models from pkl files and running on new data. 
 ### Data Pre-Processing
-findingCorrelation.py - finding correlation between the independent varaibles in pair as well as target.  
-featureScaling.py - applying feature scaling using min max scaler.  
-dataBalancing.py - applying over sampling with SMOTE.  
-dataPreProcessing.py - a Python script that contains the data preprocessing functions.  
+[findingCorrelation.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/findingCorrelation.py) - finding correlation between the independent varaibles in pair as well as target.  
+[featureScaling.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/featureScaling.py) - applying feature scaling using min max scaler.  
+[dataBalancing.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/dataBalancing.py) - applying over sampling with SMOTE.  
+[dataPreProcessing.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/dataPreProcessing.py) - a Python script that contains the data preprocessing functions.  
 ### Models
-gradientBoosting.py - a Python script that contains the gradient boosting model implementation.  
-logisticRegression.py - a Python script that contains the logistic regression model implementation.  
-modelEvaluation.py - a Python script that contains the evaluation metrics implementation.  
-randomForest.py - a Python script that contains the random forest model implementation.  
-Xgboost.py - a Python script that contains the XGBoost model implementation.  
-EnsembleModel.py - a Python script that contains the ensemble model implementation.  
+[gradientBoosting.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/gradientBoosting.py) - a Python script that contains the gradient boosting model implementation.  
+[logisticRegression.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/logisticRegression.py) - a Python script that contains the logistic regression model implementation.  
+[modelEvaluation.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/modelEvaluation.py) - a Python script that contains the evaluation metrics implementation.  
+[randomForest.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/randomForest.py) - a Python script that contains the random forest model implementation.  
+[Xgboost.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/Xgboost.py) - a Python script that contains the XGBoost model implementation.  
+[EnsembleModel.py] - a Python script that contains the ensemble model implementation.  
 [Trained Models](https://github.com/umerfarooq771/EmployeeAttrition/tree/main/ML%20Code/TrainedModels) - a folder that contains the trained models.  
 
 README.md - a readme file that provides an overview of the case study.  
