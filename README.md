@@ -44,7 +44,7 @@ modelEvaluation.py - a Python script that contains the evaluation metrics implem
 randomForest.py - a Python script that contains the random forest model implementation.  
 Xgboost.py - a Python script that contains the XGBoost model implementation.  
 EnsembleModel.py - a Python script that contains the ensemble model implementation.  
-TrainedModels - a folder that contains the trained models.  
+[Trained Models](https://github.com/umerfarooq771/EmployeeAttrition/tree/main/ML%20Code/TrainedModels) - a folder that contains the trained models.  
 
 README.md - a readme file that provides an overview of the case study.  
 
