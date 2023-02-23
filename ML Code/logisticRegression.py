@@ -4,7 +4,7 @@ from sklearn.model_selection import GridSearchCV
 
 def logisticRegression(X_train, X_test, y_train, y_test):
     # Define the logistic regression model
-    log_reg = LogisticRegression(penalty='l1',solver='liblinear', multi_class='ovr',random_state=42)
+    log_reg = LogisticRegression(penalty='l1',solver='liblinear', multi_class='ovr')
 
     # Define the hyperparameter grid
     param_grid = {'C': [0.01, 0.1, 1, 10, 100]}

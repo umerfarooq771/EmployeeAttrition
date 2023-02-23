@@ -9,7 +9,7 @@ def dataBalancing(data_encoded):
     y = data_encoded['Attrition']
 
     # Instantiate the Borderline-SMOTE algorithm with default parameters
-    smote = BorderlineSMOTE()
+    smote = BorderlineSMOTE(random_state=10)
 
     # Fit and apply the Borderline-SMOTE algorithm to the dataset
     X_resampled, y_resampled = smote.fit_resample(X, y)
