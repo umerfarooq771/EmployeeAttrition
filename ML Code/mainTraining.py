@@ -1,3 +1,5 @@
+### This script is the main code to read data, apply pre-processing steps and further train and saving the ML models.
+
 
 ## Importing Libraries
 import pandas as pd
