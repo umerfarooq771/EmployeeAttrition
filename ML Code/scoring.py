@@ -52,10 +52,6 @@ print('\n Ensemble (RF,xG,LR,GB)')
 y_pred = emsembleModel.predict(X_test)
 modelEvaluation.modelEvaluation(emsembleModel,y_pred,X_train, X_test, y_train, y_test)
 
-
-print(len(X_train))
-print(len(X_test))
-
 ## Model Selection
 # When deciding which model to use, it's important to consider both the training and testing performance. 
 # A model with high training performance but low testing performance may indicate overfitting, meaning the model 
