@@ -4,6 +4,9 @@ import joblib
 import warnings
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import VotingClassifier
+import random
+
+random.seed(10)
 
 ## Function
 import dataPreProcessing
@@ -11,7 +14,7 @@ import modelEvaluation
 
 warnings.filterwarnings('ignore')
 
-print('\n****** Employee Attrition Case Study for Crayon (Model Training) ******')
+print('\n****** Employee Attrition Case Study for Crayon (Model Scoring) ******')
 
 ## Reading Data from excel file
 
@@ -21,7 +24,7 @@ maindata=pd.read_csv(r'employee-attrition.csv')
 X_resampled,y_resampled=dataPreProcessing.dataPreProcessing(maindata)
 
 ## Spliting in test and train
-X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, test_size=0.2, random_state=42)
 
 xGModel = joblib.load('TrainedModels/xGModel.pkl')
 rFModel = joblib.load('TrainedModels/rFModel.pkl')
@@ -48,6 +51,10 @@ modelEvaluation.modelEvaluation(xGModel,y_pred,X_train, X_test, y_train, y_test)
 print('\n Ensemble (RF,xG,LR,GB)')
 y_pred = emsembleModel.predict(X_test)
 modelEvaluation.modelEvaluation(emsembleModel,y_pred,X_train, X_test, y_train, y_test)
+
+
+print(len(X_train))
+print(len(X_test))
 
 ## Model Selection
 # When deciding which model to use, it's important to consider both the training and testing performance. 

@@ -16,6 +16,9 @@ import modelEvaluation
 import Xgboost
 import randomForest
 import dataPreProcessing
+import random
+
+random.seed(10)
 
 warnings.filterwarnings('ignore')
 
@@ -29,7 +32,7 @@ maindata=pd.read_csv(r'employee-attrition.csv')
 X_resampled,y_resampled=dataPreProcessing.dataPreProcessing(maindata)
 
 ## Spliting in test and train
-X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, test_size=0.2, random_state=42)
 
 print('\n\n**Modeling**')
 
