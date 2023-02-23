@@ -83,4 +83,4 @@ In conclusion, based on the comparable performance on both training and testing 
 
 ## Conclusion
 
-In this case study, we developed a machine learning model to predict employee attrition. We trained several models and evaluated their performance using different evaluation metrics. We also developed an ensemble model using a voting classifier. The best model choosen forward which is good with generalization is Logistic Regression with a recall of 84.63 % on testing and 84.57 % on training.
+In this case study, we developed a machine learning model to predict employee attrition. We trained several models and evaluated their performance using different evaluation metrics. We also developed an ensemble model using a voting classifier. The best model choosen forward which is good with generalization is Logistic Regression with a recall of 86.46 % on testing and 83.11 % on training.
