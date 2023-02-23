@@ -30,7 +30,7 @@ Deployment - We will deploy the best performing model to make predictions on new
 ### EDA 
 [EDA.ipynb](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/EDA.ipynb) - Used to perform EDA on the provided dataset. 
 ### Python training and scoring files
-[main.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/main.py) - python code used for training and saving the models.   
+[mainTraining.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/main.py) - python code used for training and saving the models.   
 [scoring.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/scoring.py) - python code used for reading models from pkl files and running on new data. 
 ### Data Pre-Processing
 [findingCorrelation.py](https://github.com/umerfarooq771/EmployeeAttrition/blob/main/ML%20Code/findingCorrelation.py) - finding correlation between the independent varaibles in pair as well as target.  
