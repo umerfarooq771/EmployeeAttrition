@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import VotingClassifier
 import random
 
-random.seed(10)
+random.seed(42)
 
 ## Function
 import dataPreProcessing
